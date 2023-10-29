@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+  </head>
+<body>
+    <a-scene>
+        <a-box position = '0 1 -5' color = 'orange' rotation = '5 60 7' ></a-box>
+        <a-cylinder position = '0 1 5' color = 'red' rotation = '0 0 0' radius = '5' height = '1'></a-cylinder>
+        <a-sky color = '#32e6e6'></a-sky>
+        <a-sphere position = '0 1 30' color = 'pink' ></a-sphere>
+        <a-cone position = '0 1 15' color = 'green'></a-cone>
+        <a-entity geometry="primitive: dodecahedron; radius: 2" position = '0 1 35'></a-entity>
+        <a-entity geometry="primitive: ring; radiusInner: 0.5; radiusOuter: 1"
+          material="side: double" position = '0 1 22.5'></a-entity>
+        <a-entity geometry="primitive: plane; height: 100; width: 10" material="side: double" rotation = '90 0 0', position = '0 0 0'></a-entity>
+
+    </a-scene>
+</body>
+</html>
